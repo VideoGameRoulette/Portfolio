@@ -1,0 +1,136 @@
+:root {
+	--main: #6441a4;
+	--alt: #392e5c;
+	--alt2: #7d5bbe;
+	--dark1: #0e0c13;
+}
+
+body {
+	background: var(--dark1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	font-family: 'Play', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	padding-left: 20px;
+}
+
+header {
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 50px;
+	font-weight: 700;
+}
+
+.contact-me {
+	float: left;
+}
+
+.social-media {
+	float: right;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.2em;
+  position: relative;
+}
+
+i {
+	padding: 10px;
+	color: var(--alt);
+}
+
+i:hover {
+	color: var(--alt2);
+}
+
+.about {
+	width: 100%;
+	height: 500px;
+}
+
+.info {
+	float: left;
+	position: relative;
+	top: 100px;
+	width: calc(100% - 500px);
+	height: 350px;
+	color: white;
+}
+
+.title {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.description {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.avatar {
+	float: right;
+	position: relative;
+	top: 100px;
+	left: 150px;
+	background: transparent;
+	width: 500px;
+	height: 500px;
+}
+
+.avatar-container {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 400px;
+	shape-outside: circle();
+  clip-path: circle();
+	background: var(--alt2);
+	z-index: 2;
+}
+
+#picture {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 380px;
+	shape-outside: circle();
+  clip-path: circle();
+	filter: grayscale(100%);
+}
+
+#avatar-bg {
+	position: relative;
+	top: -300px;
+	left: 100px;
+	width: 400px;
+	height: 400px;
+	shape-outside: circle();
+  clip-path: circle();
+	background: var(--alt);
+}
+
+.skills {
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+
+.projects {
+	position: relative;
+	top: 200px;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
